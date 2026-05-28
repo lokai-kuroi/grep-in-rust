@@ -1,0 +1,12 @@
+[package]
+name = "cli_grep_in_rust"
+version = "0.1.0"
+edition = "2024"
+authors = ["Lokai Kuroi <lokai.kuroi@gmail.com>"]
+license = "MIT"
+description = "This project (re)implemented a programm that will search for a specific string of characters and print each line it occours"
+readme = "README.md"
+
+[dependencies]
+clap = {version = "4.6", features = ["derive"]}
+anyhow = {version = "1.0"}
